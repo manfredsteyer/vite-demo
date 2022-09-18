@@ -6,6 +6,7 @@
 	"scripts": {
 		"install:deps": "npm --prefix ./host install && npm --prefix ./remote install",
 		"serve:host": "npm --prefix ./host run dev",
+		"serve:remote": "npm --prefix ./remote run dev",
 		"serve:host:preview": "npm --prefix ./host run build && npm --prefix ./host run preview",
 		"serve:remote:preview": "npm --prefix ./remote run build && npm --prefix ./remote run preview",
 		"build:host": "npm --prefix ./host run build",
